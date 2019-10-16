@@ -1,0 +1,15 @@
+{
+  "name": "fibos-accounts",
+  "main": "./lib/",
+  "version": "1.0.0",
+  "description": "fibos-tracker accounts module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fibos-tracker": "wxsimon/fibos-tracker",
+    "fibos.js": "^0.3.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
