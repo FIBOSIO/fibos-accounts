@@ -6,8 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FIBOSIO/fibos-accounts"
+  },
   "dependencies": {
-    "fibos-tracker": "wxsimon/fibos-tracker",
+    "fibos-tracker": "^1.4.0",
     "fibos.js": "^0.3.7"
   },
   "author": "",

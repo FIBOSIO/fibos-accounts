@@ -65,5 +65,5 @@ Tracker.Config.DBconnString = "sqlite:./fibos_chain.db";
 const tracker = new Tracker();
 tracker.use(require('../'));
 
-tracker.emitter(fibos);
+tracker.emitter();
 fibos.start();

@@ -34,7 +34,7 @@ accounts 表
 | --- | --- | --- |
 | id | int | 自增id |
 | name | String | 账户名 |
-| creator | String | 账户创建者 |
+| creator_id | int | 账户创建者关联 id |
 | created | Date | 账户创建日期 |
 | createdAt | Date | Mysql 插入时间 |
 | updatedAt | Date | Mysql 更新时间 |
