@@ -28,7 +28,9 @@ tracker.use(require("fibos-accounts"));
 
 ## 默认表结构定义
 
-accounts 表
+![数据模型](./diagram.svg)
+
+fibos_accounts 表
 
 | 字段 | 类型 | 说明 |
 | --- | --- | --- |
@@ -39,7 +41,7 @@ accounts 表
 | createdAt | Date | Mysql 插入时间 |
 | updatedAt | Date | Mysql 更新时间 |
 
-permissions 表
+fibos_permissions 表
 
 | 字段 | 类型 | 说明 |
 | --- | --- | --- |
