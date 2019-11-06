@@ -34,7 +34,7 @@ fibos_accounts 表
 
 | 字段 | 类型 | 说明 |
 | --- | --- | --- |
-| name | String | 账户名 |
+| id | String | 账户名 |
 | creator_id | int | 账户创建者关联 id |
 | created | Date | 账户创建日期 |
 | createdAt | Date | Mysql 插入时间 |
@@ -46,6 +46,6 @@ fibos_permissions 表
 | --- | --- | --- |
 | pub_key | String | 公钥 |
 | permission | String | 权限名 | 
-| account_name | int | 关联账户名 |
+| account_id | int | 关联账户名 |
 | createdAt | Date | Mysql 插入时间 |
 | updatedAt | Date | Mysql 更新时间 |
