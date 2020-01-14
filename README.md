@@ -26,6 +26,11 @@ tracker.use(require("fibos-accounts"));
 
 [实例代码](./examples/)
 
+## 更新说明
+
+v1.0.2 版本说明：
+新增对用户「历史权限」存储，可以查询用户指定时间内的公钥信息
+
 ## 默认表结构定义
 
 ![数据模型](./diagram.svg)
@@ -47,5 +52,7 @@ fibos_permissions 表
 | pub_key | String | 公钥 |
 | permission | String | 权限名 | 
 | account_id | int | 关联账户名 |
+| start_time | Date | 公钥生效时间 |
+| expire_time | Date  | 公钥失效时间 |
 | createdAt | Date | Mysql 插入时间 |
 | updatedAt | Date | Mysql 更新时间 |
